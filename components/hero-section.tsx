@@ -60,7 +60,7 @@ export function HeroSection() {
             }`}
           >
             <Button size="lg" className="group hover:scale-105 transition-transform" asChild>
-              <a href="resume.pdf" download>
+              <a href="resumeOfMy.pdf" download>
                 <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
                 Download Resume
               </a>
