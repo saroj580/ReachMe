@@ -6,9 +6,25 @@ import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
   const [isVisible, setIsVisible] = useState(false)
+  const [displayText, setDisplayText] = useState("")
+  const fullText = "Saroj Chaudhary"
 
   useEffect(() => {
     setIsVisible(true)
+    
+    let currentText = ""
+    let index = 0
+    const typingInterval = setInterval(() => {
+      if (index < fullText.length) {
+        currentText += fullText[index]
+        setDisplayText(currentText)
+        index++
+      } else {
+        clearInterval(typingInterval)
+      }
+    }, 100)
+
+    return () => clearInterval(typingInterval)
   }, [])
 
   return (
@@ -30,11 +46,12 @@ export function HeroSection() {
           </div>
 
           <h1
-            className={`text-4xl sm:text-5xl md:text-7xl font-bold text-foreground mb-4 transition-all duration-700 delay-100 ${
+            className={`text-4xl sm:text-5xl md:text-7xl font-bold text-foreground mb-4 min-h-[1.2em] transition-all duration-700 delay-100 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            Saroj Chaudhary
+            {displayText}
+            <span className="animate-pulse inline-block w-[4px] h-[0.8em] bg-primary ml-1 align-middle" />
           </h1>
 
           <h2

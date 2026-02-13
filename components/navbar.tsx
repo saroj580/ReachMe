@@ -12,6 +12,7 @@ const navLinks = [
   { href: "#techstack", label: "Tech Stack" },
   { href: "#projects", label: "Projects" },
   { href: "#github", label: "GitHub" },
+  { href: "#blog", label: "Blog" },
   { href: "#contact", label: "Contact" },
 ]
 
