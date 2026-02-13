@@ -1708,6 +1708,21 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
+"[project]/app/actions/data:a9a299 [app-client] (ecmascript) <text/javascript>", ((__turbopack_context__) => {
+"use strict";
+
+/* __next_internal_action_entry_do_not_use__ [{"00292410ab3f8fe15c0d42036b1caf07d27e97a5b3":"getGithubStats"},"app/actions/github.ts",""] */ __turbopack_context__.s([
+    "getGithubStats",
+    ()=>getGithubStats
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js [app-client] (ecmascript)");
+"use turbopack no side effects";
+;
+var getGithubStats = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createServerReference"])("00292410ab3f8fe15c0d42036b1caf07d27e97a5b3", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["callServer"], void 0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["findSourceMapURL"], "getGithubStats"); //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4vZ2l0aHViLnRzIl0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIHNlcnZlclwiXG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRHaXRodWJTdGF0cygpIHtcbiAgY29uc3QgdXNlcm5hbWUgPSBwcm9jZXNzLmVudi5HSVRIVUJfVVNFUk5BTUUgfHwgXCJcIlxuICBjb25zdCB0b2tlbiA9IHByb2Nlc3MuZW52LkdJVEhVQl9UT0tFTlxuXG4gIGNvbnN0IGhlYWRlcnM6IEhlYWRlcnNJbml0ID0ge1xuICAgIEFjY2VwdDogXCJhcHBsaWNhdGlvbi92bmQuZ2l0aHViLnYzK2pzb25cIixcbiAgfVxuXG4gIGlmICh0b2tlbikge1xuICAgIGhlYWRlcnMuQXV0aG9yaXphdGlvbiA9IGB0b2tlbiAke3Rva2VufWBcbiAgfVxuXG4gIHRyeSB7XG4gICAgLy8gRmV0Y2ggdXNlciBkYXRhXG4gICAgY29uc3QgdXNlclJlcyA9IGF3YWl0IGZldGNoKGBodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzLyR7dXNlcm5hbWV9YCwge1xuICAgICAgaGVhZGVycyxcbiAgICAgIG5leHQ6IHsgcmV2YWxpZGF0ZTogMzYwMCB9LCAvLyBDYWNoZSBmb3IgMSBob3VyXG4gICAgfSlcbiAgICBcbiAgICBpZiAoIXVzZXJSZXMub2spIHRocm93IG5ldyBFcnJvcihcIkZhaWxlZCB0byBmZXRjaCB1c2VyIGRhdGFcIilcbiAgICBjb25zdCB1c2VyRGF0YSA9IGF3YWl0IHVzZXJSZXMuanNvbigpXG5cbiAgICAvLyBGZXRjaCByZXBvcyB0byBjb3VudCBzdGFyc1xuICAgIGNvbnN0IHJlcG9zUmVzID0gYXdhaXQgZmV0Y2goYGh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvJHt1c2VybmFtZX0vcmVwb3M/cGVyX3BhZ2U9MTAwYCwge1xuICAgICAgaGVhZGVycyxcbiAgICAgIG5leHQ6IHsgcmV2YWxpZGF0ZTogMzYwMCB9LFxuICAgIH0pXG4gICAgXG4gICAgaWYgKCFyZXBvc1Jlcy5vaykgdGhyb3cgbmV3IEVycm9yKFwiRmFpbGVkIHRvIGZldGNoIHJlcG9zXCIpXG4gICAgY29uc3QgcmVwb3NEYXRhID0gYXdhaXQgcmVwb3NSZXMuanNvbigpXG4gICAgXG4gICAgY29uc3QgdG90YWxTdGFycyA9IEFycmF5LmlzQXJyYXkocmVwb3NEYXRhKSBcbiAgICAgID8gcmVwb3NEYXRhLnJlZHVjZSgoYWNjOiBudW1iZXIsIHJlcG86IGFueSkgPT4gYWNjICsgcmVwby5zdGFyZ2F6ZXJzX2NvdW50LCAwKVxuICAgICAgOiAwXG5cbiAgICByZXR1cm4ge1xuICAgICAgZm9sbG93ZXJzOiB1c2VyRGF0YS5mb2xsb3dlcnMgfHwgMCxcbiAgICAgIHN0YXJzOiB0b3RhbFN0YXJzLFxuICAgICAgcmVwb3M6IHVzZXJEYXRhLnB1YmxpY19yZXBvcyB8fCAwLFxuICAgICAgdXNlcm5hbWU6IHVzZXJuYW1lLFxuICAgIH1cbiAgfSBjYXRjaCAoZXJyb3IpIHtcbiAgICBjb25zb2xlLmVycm9yKFwiRXJyb3IgZmV0Y2hpbmcgR2l0SHViIHN0YXRzOlwiLCBlcnJvcilcbiAgICByZXR1cm4gbnVsbFxuICB9XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjZSQUVzQiJ9
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
 "[project]/components/github-section.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -1724,9 +1739,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/loader-circle.js [app-client] (ecmascript) <export default as Loader2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/button.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$actions$2f$data$3a$a9a299__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__ = __turbopack_context__.i("[project]/app/actions/data:a9a299 [app-client] (ecmascript) <text/javascript>");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -1740,30 +1757,20 @@ function GithubSection() {
         followers: 0,
         stars: 0,
         repos: 0,
+        username: "saroj580",
         loading: true
     });
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "GithubSection.useEffect": ()=>{
             const fetchStats = {
                 "GithubSection.useEffect.fetchStats": async ()=>{
-                    try {
-                        // Fetch user data
-                        const userRes = await fetch("https://api.github.com/users/saroj580");
-                        const userData = await userRes.json();
-                        // Fetch repos to count stars (handles up to 100 repos)
-                        const reposRes = await fetch("https://api.github.com/users/saroj580/repos?per_page=100");
-                        const reposData = await reposRes.json();
-                        const totalStars = Array.isArray(reposData) ? reposData.reduce({
-                            "GithubSection.useEffect.fetchStats": (acc, repo)=>acc + repo.stargazers_count
-                        }["GithubSection.useEffect.fetchStats"], 0) : 0;
+                    const data = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$actions$2f$data$3a$a9a299__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__["getGithubStats"])();
+                    if (data) {
                         setStats({
-                            followers: userData.followers || 0,
-                            stars: totalStars,
-                            repos: userData.public_repos || 0,
+                            ...data,
                             loading: false
                         });
-                    } catch (error) {
-                        console.error("Error fetching GitHub stats:", error);
+                    } else {
                         setStats({
                             "GithubSection.useEffect.fetchStats": (prev)=>({
                                     ...prev,
@@ -1793,12 +1800,12 @@ function GithubSection() {
                                 className: "h-8 w-8"
                             }, void 0, false, {
                                 fileName: "[project]/components/github-section.tsx",
-                                lineNumber: 64,
+                                lineNumber: 53,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/github-section.tsx",
-                            lineNumber: 63,
+                            lineNumber: 52,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1806,7 +1813,7 @@ function GithubSection() {
                             children: "Follow me on GitHub"
                         }, void 0, false, {
                             fileName: "[project]/components/github-section.tsx",
-                            lineNumber: 66,
+                            lineNumber: 55,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1814,7 +1821,7 @@ function GithubSection() {
                             children: "I'm active on GitHub, contributing to open source and sharing my latest projects. Check out my repositories, stars, and contributions in real-time."
                         }, void 0, false, {
                             fileName: "[project]/components/github-section.tsx",
-                            lineNumber: 69,
+                            lineNumber: 58,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1827,7 +1834,7 @@ function GithubSection() {
                                             className: "h-6 w-6 text-primary mb-3 mx-auto group-hover:scale-110 transition-transform"
                                         }, void 0, false, {
                                             fileName: "[project]/components/github-section.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 65,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1836,12 +1843,12 @@ function GithubSection() {
                                                 className: "h-6 w-6 animate-spin mx-auto"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/github-section.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 67,
                                                 columnNumber: 36
                                             }, this) : stats.followers
                                         }, void 0, false, {
                                             fileName: "[project]/components/github-section.tsx",
-                                            lineNumber: 77,
+                                            lineNumber: 66,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1849,13 +1856,13 @@ function GithubSection() {
                                             children: "Followers"
                                         }, void 0, false, {
                                             fileName: "[project]/components/github-section.tsx",
-                                            lineNumber: 80,
+                                            lineNumber: 69,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/github-section.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 64,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1865,7 +1872,7 @@ function GithubSection() {
                                             className: "h-6 w-6 text-primary mb-3 mx-auto group-hover:scale-110 transition-transform"
                                         }, void 0, false, {
                                             fileName: "[project]/components/github-section.tsx",
-                                            lineNumber: 83,
+                                            lineNumber: 72,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1874,12 +1881,12 @@ function GithubSection() {
                                                 className: "h-6 w-6 animate-spin mx-auto"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/github-section.tsx",
-                                                lineNumber: 85,
+                                                lineNumber: 74,
                                                 columnNumber: 36
                                             }, this) : stats.stars
                                         }, void 0, false, {
                                             fileName: "[project]/components/github-section.tsx",
-                                            lineNumber: 84,
+                                            lineNumber: 73,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1887,13 +1894,13 @@ function GithubSection() {
                                             children: "Total Stars"
                                         }, void 0, false, {
                                             fileName: "[project]/components/github-section.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 76,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/github-section.tsx",
-                                    lineNumber: 82,
+                                    lineNumber: 71,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1903,7 +1910,7 @@ function GithubSection() {
                                             className: "h-6 w-6 text-primary mb-3 mx-auto group-hover:scale-110 transition-transform"
                                         }, void 0, false, {
                                             fileName: "[project]/components/github-section.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 79,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1912,12 +1919,12 @@ function GithubSection() {
                                                 className: "h-6 w-6 animate-spin mx-auto"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/github-section.tsx",
-                                                lineNumber: 92,
+                                                lineNumber: 81,
                                                 columnNumber: 36
                                             }, this) : stats.repos
                                         }, void 0, false, {
                                             fileName: "[project]/components/github-section.tsx",
-                                            lineNumber: 91,
+                                            lineNumber: 80,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1925,19 +1932,19 @@ function GithubSection() {
                                             children: "Public Repos"
                                         }, void 0, false, {
                                             fileName: "[project]/components/github-section.tsx",
-                                            lineNumber: 94,
+                                            lineNumber: 83,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/github-section.tsx",
-                                    lineNumber: 89,
+                                    lineNumber: 78,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/github-section.tsx",
-                            lineNumber: 74,
+                            lineNumber: 63,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1945,7 +1952,7 @@ function GithubSection() {
                             className: "group",
                             asChild: true,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "https://github.com/saroj580",
+                                href: `https://github.com/${stats.username}`,
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 children: [
@@ -1953,44 +1960,45 @@ function GithubSection() {
                                         className: "mr-2 h-5 w-5"
                                     }, void 0, false, {
                                         fileName: "[project]/components/github-section.tsx",
-                                        lineNumber: 104,
+                                        lineNumber: 93,
                                         columnNumber: 17
                                     }, this),
-                                    "Follow @saroj580"
+                                    "Follow @",
+                                    stats.username
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/github-section.tsx",
-                                lineNumber: 99,
+                                lineNumber: 88,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/github-section.tsx",
-                            lineNumber: 98,
+                            lineNumber: 87,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/github-section.tsx",
-                    lineNumber: 58,
+                    lineNumber: 47,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/github-section.tsx",
-                lineNumber: 57,
+                lineNumber: 46,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/github-section.tsx",
-            lineNumber: 56,
+            lineNumber: 45,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/github-section.tsx",
-        lineNumber: 55,
+        lineNumber: 44,
         columnNumber: 5
     }, this);
 }
-_s(GithubSection, "udt14LINrqKKN2CWBrgH1e1dG+g=", false, function() {
+_s(GithubSection, "m0x+ZJsz/+H2S2prwO2OU2gwB7w=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$use$2d$in$2d$view$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"]
     ];
@@ -2542,6 +2550,7 @@ __turbopack_context__.s([
     "Footer",
     ()=>Footer
 ]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/github.js [app-client] (ecmascript) <export default as Github>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$linkedin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Linkedin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/linkedin.js [app-client] (ecmascript) <export default as Linkedin>");
@@ -2595,7 +2604,7 @@ function Footer() {
                             className: "flex items-center gap-6",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "https://github.com/saroj580",
+                                    href: `https://github.com/${__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.GITHUB_USERNAME}`,
                                     target: "_blank",
                                     rel: "noopener noreferrer",
                                     className: "text-muted-foreground hover:text-primary transition-colors",
@@ -2702,4 +2711,4 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 ]);
 
-//# sourceMappingURL=_41cc58e4._.js.map
+//# sourceMappingURL=_79d8c37a._.js.map
