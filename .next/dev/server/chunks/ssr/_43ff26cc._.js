@@ -10,7 +10,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$validate$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-validate.js [app-rsc] (ecmascript)");
 ;
 async function getGithubStats() {
-    const username = process.env.GITHUB_USERNAME || "";
+    const username = process.env.GITHUB_USERNAME || "saroj580";
     const token = process.env.GITHUB_TOKEN;
     const headers = {
         Accept: "application/vnd.github.v3+json"
@@ -28,7 +28,6 @@ async function getGithubStats() {
         });
         if (!userRes.ok) throw new Error("Failed to fetch user data");
         const userData = await userRes.json();
-        // Fetch repos to count stars
         const reposRes = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, {
             headers,
             next: {

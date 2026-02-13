@@ -1,7 +1,7 @@
 "use server"
 
 export async function getGithubStats() {
-  const username = process.env.GITHUB_USERNAME || ""
+  const username = process.env.GITHUB_USERNAME || "saroj580"
   const token = process.env.GITHUB_TOKEN
 
   const headers: HeadersInit = {
@@ -22,7 +22,6 @@ export async function getGithubStats() {
     if (!userRes.ok) throw new Error("Failed to fetch user data")
     const userData = await userRes.json()
 
-    // Fetch repos to count stars
     const reposRes = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, {
       headers,
       next: { revalidate: 3600 },
