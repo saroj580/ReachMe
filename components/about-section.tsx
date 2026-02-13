@@ -31,9 +31,9 @@ export function AboutSection() {
               <User className="h-10 w-10 text-primary mb-4" />
               <h3 className="text-xl font-semibold text-foreground mb-2">Who I Am</h3>
               <p className="text-muted-foreground leading-relaxed">
-                {`I'm a passionate software developer with a love for creating
+                I'm a passionate software developer with a love for creating
                 elegant solutions to complex problems. I enjoy turning ideas
-                into reality through code.`}
+                into reality through code.
               </p>
             </div>
 
@@ -60,9 +60,9 @@ export function AboutSection() {
               <Rocket className="h-10 w-10 text-primary mb-4" />
               <h3 className="text-xl font-semibold text-foreground mb-2">My Goals</h3>
               <p className="text-muted-foreground leading-relaxed">
-                {`I'm passionate about building software that makes a difference.
+                I'm passionate about building software that makes a difference.
                 I constantly learn new technologies and strive to write better
-                code every day.`}
+                code every day.
               </p>
             </div>
           </div>
@@ -74,12 +74,12 @@ export function AboutSection() {
             style={{ transitionDelay: "400ms" }}
           >
             <p className="text-lg text-muted-foreground leading-relaxed">
-              {`I'm a software developer passionate about building full-stack
+              I'm a software developer passionate about building full-stack
               applications using modern technologies like React, Next.js,
               Node.js, and MongoDB. I create intuitive UIs, scalable APIs, and
               clean, maintainable code. When I'm not coding, you can find me
               exploring new technologies, contributing to open source, or
-              sharing knowledge with the developer community.`}
+              sharing knowledge with the developer community.
             </p>
           </div>
         </div>

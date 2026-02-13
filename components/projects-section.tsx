@@ -34,7 +34,7 @@ const projects = [
     title: "BotBarrier - Intelligent Bot Detection System",
     description:
       "BotBarrier is an intelligent web-security system designed to accurately distinguish human users from automated bots. It analyzes behavioral patterns such as mouse movements, typing rhythms, click intervals, and request frequency to identify anomalies.",
-    tech: ["Typescript", "Expressjs", "MongoDB", "Machine Learning", "Python"],
+    tech: ["TypeScript", "Express.js", "MongoDB", "Machine Learning", "Python"],
     features: ["bot vs human classification", "Real-time user interaction tracking", "mouse movement analysis", "rate-limiting defense", "instant threat flagging"],
     github: "https://github.com/saroj580/BotBarrier.git",
     featured: true,
@@ -43,7 +43,7 @@ const projects = [
     title: "Online Trading System",
     description:
       "Secure trading platform with dashboard-based interface for managing portfolios, executing trades, and monitoring market trends.",
-    tech: ["Typescript", "Expressjs", "Express", "MongoDB", "Socket.io", "Chart.js"],
+    tech: ["TypeScript", "Express.js", "MongoDB", "Socket.io", "Chart.js"],
     features: [
       "Portfolio management",
       "Real-time updates",
@@ -58,7 +58,7 @@ const projects = [
     title: "VoiceAgent",
     description:
       "Voice-enabled AI interview agent that conducts interactive interviews, listens to responses, generates follow-up questions, and provides a realistic interview simulation experience.",
-    tech: ["Next.js", "Typescript", "Firebase", "zod", "vapi.sdk"],
+    tech: ["Next.js", "TypeScript", "Firebase", "Zod", "Vapi SDK"],
     features: [
       "Real-time voice input capture",
       "AI-driven response analysis",
