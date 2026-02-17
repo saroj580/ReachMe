@@ -16,13 +16,40 @@ export function ContactSection() {
   const [isLoading, setIsLoading] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    setIsLoading(true)
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000))
-    setIsLoading(false)
-    setIsSubmitted(true)
-  }
+    e.preventDefault();
+    setIsLoading(true);
+    setIsSubmitted(false);
+
+    // Capture the form BEFORE any await (React event pooling)
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    const payload = {
+      name: formData.get("name"),
+      email: formData.get("email"),
+      message: formData.get("message"),
+    };
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!res.ok) {
+        throw new Error("Failed to send");
+      }
+
+      setIsSubmitted(true);
+      form.reset();
+    } catch (err) {
+      console.error(err);
+      alert("Something went wrong. Please try again later.");
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   return (
     <section id="contact" className="py-20 sm:py-32" ref={ref}>
