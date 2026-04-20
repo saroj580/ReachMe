@@ -56,7 +56,7 @@ export function GithubSection() {
               Follow me on GitHub
             </h2>
             <p className="text-muted-foreground text-lg mb-10 max-w-2xl mx-auto">
-              I'm active on GitHub, contributing to open source and sharing my latest projects. 
+              I'm active on GitHub, contributing to open source and sharing my latest projects.
               Check out my repositories, stars, and contributions in real-time.
             </p>
 
@@ -85,9 +85,9 @@ export function GithubSection() {
             </div>
 
             <Button size="lg" className="group" asChild>
-              <a 
-                href={`https://github.com/${stats.username}`} 
-                target="_blank" 
+              <a
+                href={`https://github.com/${stats.username}`}
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <Github className="mr-2 h-5 w-5" />
